@@ -1,0 +1,35 @@
+{
+  "run_id": "RUN-A8339A41",
+  "timestamp": "2026-09-21T05:27:59.631039",
+  "status": "SUCCESS",
+  "execution_duration_sec": 4.13,
+  "dataset_metrics": {
+    "total_records_ingested": 5000,
+    "valid_records": 4837,
+    "quarantine_records": 163,
+    "data_quality_pass_pct": 96.74
+  },
+  "dq_rule_violations": {
+    "DQ001": 0,
+    "DQ002": 0,
+    "DQ003": 2,
+    "DQ004": 0,
+    "DQ005": 71,
+    "DQ006": 0,
+    "DQ007": 54,
+    "DQ008": 0,
+    "DQ009": 44,
+    "DQ010": 0,
+    "DQ011": 0,
+    "DQ012": 0,
+    "DQ013": 0,
+    "DQ014": 1
+  },
+  "storage_lineage": {
+    "input_source": "D:\\4th\\capstone project\\NYC Taxi Demand Prediction Using Real-Time Data\\data\\sample\\yellow_tripdata_sample.parquet",
+    "analytical_target": "D:\\4th\\capstone project\\NYC Taxi Demand Prediction Using Real-Time Data\\data\\processed\\valid_trips.parquet",
+    "quarantine_target": "D:\\4th\\capstone project\\NYC Taxi Demand Prediction Using Real-Time Data\\spark_engine\\lineage\\..\\..\\artifacts\\quarantine"
+  },
+  "engine": "Apache Spark 3.5.1 / PySpark",
+  "acceptance_criteria_passed": true
+}

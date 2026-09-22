@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large Datasets & Binary Bundles
+data/sample/*.parquet
+data/processed/*.parquet
+data/quarantine/*.parquet
+hadoop_bin/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
