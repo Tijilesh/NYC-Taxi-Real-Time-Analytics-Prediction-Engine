@@ -207,6 +207,7 @@ export default function App() {
               <span>14 DQ Rules</span>
             </button>
           </li>
+          {/* Tabs reserved for later review:
           <li>
             <button className={`nav-link-btn ${activeTab === 'prediction' ? 'active' : ''}`} onClick={() => setActiveTab('prediction')}>
               <Sparkles size={17} />
@@ -219,6 +220,7 @@ export default function App() {
               <span>Audit & Lineage</span>
             </button>
           </li>
+          */}
         </ul>
 
         {/* Engine Specs Footer */}
